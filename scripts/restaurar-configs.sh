@@ -19,3 +19,6 @@ echo "Recarregando Hyprland..."
 hyprctl reload
 
 echo "Pronto! Configs restauradas com sucesso."
+
+mkdir -p ~/.config/fish
+cp ~/dotfiles/fish/config.fish ~/.config/fish/
