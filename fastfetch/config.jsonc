@@ -1,0 +1,18 @@
+{
+  "logo": {
+    "source": "~/.config/fastfetch/garuda-logo-trimmed.png",
+    "type": "chafa",
+    "width": 35,
+    "height": 8
+  },
+  "modules": [
+    {"type": "title"},
+    "break",
+    {"type": "kernel", "format": "{release}"},
+    {"type": "shell"},
+    {"type": "terminal"},
+    {"type": "wm"},
+    {"type": "packages"},
+    {"type": "display", "format": "{width}x{height}", "multiplePerLine": true}
+  ]
+}
