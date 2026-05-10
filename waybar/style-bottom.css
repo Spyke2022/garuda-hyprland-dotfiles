@@ -51,3 +51,14 @@ window#waybar { background: rgba(30,30,46,0.92); border-radius: 14px; }
     margin: 4px 2px;
 }
 #custom-drawer:hover { background: rgba(166,227,161,0.28); }
+#custom-wallpaper {
+    font-size: 22px;
+    padding: 0 8px;
+    color: #a6e3a1;
+    border-radius: 8px;
+    min-width: 36px;
+    margin: 4px 1px;
+}
+#custom-wallpaper:hover {
+    background: rgba(166,227,161,0.1);
+}
