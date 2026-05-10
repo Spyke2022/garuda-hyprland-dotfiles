@@ -1,0 +1,18 @@
+{
+"layer": "top",
+"position": "bottom",
+"height": 44,
+"margin": "0 700 4 700",
+"spacing": 0,
+"modules-left": ["custom/thunar","custom/foot"],
+"modules-center": ["custom/forensics","custom/productivity","custom/drawer"],
+"modules-right": ["custom/firedragon","custom/chrome","custom/thunderbird"],
+"custom/thunar":      {"format": "󰉋",  "tooltip-format": "Gestor de Ficheiros", "on-click": "exec thunar"},
+"custom/foot":        {"format": "󰆍",  "tooltip-format": "Terminal",            "on-click": "exec footclient"},
+"custom/forensics":   {"format": "󰍉 Forense",      "tooltip": false, "on-click": "foot --title=Forense -- python3 /home/silas/.local/share/garuda-sway-tools/garuda-forensics-menu.py"},
+"custom/productivity":{"format": " Produtividade", "tooltip": false, "on-click": "foot --title=Produtividade -- python3 /home/silas/.local/share/garuda-sway-tools/garuda-productivity-menu.py"},
+"custom/drawer":      {"format": "󰀻 Apps",          "tooltip": false, "on-click": "exec nwg-drawer -c 7 -is 70 -spacing 23"},
+"custom/firedragon":  {"format": "󰈹",  "tooltip-format": "FireDragon",    "on-click": "exec firedragon"},
+"custom/chrome":      {"format": "󰊯",  "tooltip-format": "Google Chrome", "on-click": "exec google-chrome-stable"},
+"custom/thunderbird": {"format": "󰇮",  "tooltip-format": "Thunderbird",   "on-click": "exec thunderbird"}
+}

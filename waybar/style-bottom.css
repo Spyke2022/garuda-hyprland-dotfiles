@@ -1,0 +1,53 @@
+* { border: 0; border-radius: 0; padding: 0; margin: 0; font-family: "JetBrainsMono Nerd Font", "Symbols Nerd Font Mono", sans-serif; font-size: 14px; }
+
+window#waybar { background: rgba(30,30,46,0.92); border-radius: 14px; }
+
+.modules-left, .modules-center, .modules-right {
+    margin: 0;
+    padding: 0;
+}
+
+#custom-thunar, #custom-foot, #custom-firedragon, #custom-chrome, #custom-thunderbird {
+    font-size: 22px;
+    padding: 0 8px;
+    color: #cdd6f4;
+    border-radius: 8px;
+    min-width: 36px;
+    margin: 4px 1px;
+}
+#custom-thunar:hover, #custom-foot:hover, #custom-firedragon:hover, #custom-chrome:hover, #custom-thunderbird:hover {
+    background: rgba(255,255,255,0.1);
+}
+
+#custom-forensics {
+    color: #f38ba8;
+    background: rgba(243,139,168,0.12);
+    border-radius: 8px;
+    padding: 2px 14px;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 4px 2px;
+}
+#custom-forensics:hover { background: rgba(243,139,168,0.28); }
+
+#custom-productivity {
+    color: #89b4fa;
+    background: rgba(137,180,250,0.12);
+    border-radius: 8px;
+    padding: 2px 14px;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 4px 2px;
+}
+#custom-productivity:hover { background: rgba(137,180,250,0.28); }
+
+#custom-drawer {
+    color: #a6e3a1;
+    background: rgba(166,227,161,0.12);
+    border-radius: 8px;
+    padding: 2px 14px;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 4px 2px;
+}
+#custom-drawer:hover { background: rgba(166,227,161,0.28); }
