@@ -1,0 +1,9 @@
+[Trigger]
+Operation = Upgrade
+Type = Package
+Target = grub
+
+[Action]
+Description = Recriando grubx64.efi sem sparse file...
+When = PostTransaction
+Exec = /usr/local/bin/grub-fix-sparse.sh
